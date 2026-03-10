@@ -36,4 +36,8 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
-docker run hello-world
+print("...")
+
+sleep 3
+
+print("Das hat geklapp")
