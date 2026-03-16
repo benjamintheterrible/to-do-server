@@ -35,7 +35,3 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
-
-
-
-print("Das hat geklapp")
