@@ -1,4 +1,5 @@
-#!/bin/bash                                                                                                                                      # Shabang mit dem Verweis auf die Bash-Shell 
+#!/bin/bash                                                                                                                                       
+# Shabang mit dem Verweis auf die Bash-Shell
 
 sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1) -y        # Entfernt alle altlasten von Docker, sofernvorhanden
 
